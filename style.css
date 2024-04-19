@@ -1,0 +1,82 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-pink: hsl(275, 100%, 97%);
+    --Grayish-purple: hsl(292, 16%, 49%);
+    --Dark-purple: hsl(292, 42%, 14%);
+
+}
+
+@font-face {
+    font-family: WorkSans;
+    src: url("assets/fonts/WorkSans-VariableFont_wght.ttf");
+    font-weight: bold;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+    font-family: WorkSans ,sans-serif;
+}
+body{
+
+    margin: 0;
+    padding: 0;
+    background-color: var(--Light-pink);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.plusButton{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.container{
+    max-width: 50%;
+    background-color: var(--White);
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.65);
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2em;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 2em;
+    font-size: 16px;
+    gap: 2em;
+}
+.card p{
+
+    color: var(--Grayish-purple);
+}
+.card h2,h1{
+    color: var(--Dark-purple)
+}
+.card h1{
+    font-size: 5em;
+}
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+h2{
+    margin: 0;
+}
+p{
+    display: none;
+}
+
+footer{
+    position: absolute;
+    bottom: 2em;
+}
