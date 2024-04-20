@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/faq-accordion-using-array-in-js-QvaCJyvtJe)
+- Live Site URL: [live site](https://github.com/Lenzhy/faq-accordion-main)
 
 ## My process
 
@@ -68,6 +68,7 @@ To see how you can add code snippets, see below:
  buttonsPlus.forEach((button, index) => {                   //go through the array once to add the eventlistener
         button.addEventListener("click", () => handlePlusButtonClick(index));       //add event when click the button
     });
+}
 ```
 
 
