@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution URL](https://www.frontendmentor.io/solutions/faq-accordion-using-array-in-js-QvaCJyvtJe)
-- Live Site URL: [live site](https://github.com/Lenzhy/faq-accordion-main)
+- Live Site URL: [live site](https://lenzhy.github.io/faq-accordion-main/)
 
 ## My process
 
