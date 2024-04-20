@@ -5,7 +5,6 @@
     --Dark-purple: hsl(292, 42%, 14%);
 
 }
-
 @font-face {
     font-family: WorkSans;
     src: url("assets/fonts/WorkSans-VariableFont_wght.ttf");
@@ -79,9 +78,6 @@ h2{
 }
 p{
     display: none;
-}
-button:hover{
-
 }
 footer{
     display: flex;
