@@ -9,13 +9,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
         document.getElementById("buttonPlus1"),
         document.getElementById("buttonPlus2"),
         document.getElementById("buttonPlus3"),
-        document.getElementById("buttonPlus4")
+        document.getElementById("buttonPlus4"),
+        document.querySelector('[id^="buttonPlus"]').id;
     ];
     const buttonsMoins = [
         document.getElementById("buttonMoins1"),
         document.getElementById("buttonMoins2"),
         document.getElementById("buttonMoins3"),
-        document.getElementById("buttonMoins4")
+        document.getElementById("buttonMoins4"),
+
     ];
     function handlePlusButtonClick(buttonIndex) {                    //button index = parameter of function handlePlusButtonClick
         texts.forEach((text, index) => {      //enter a loop where you go through each id "text[index]"
