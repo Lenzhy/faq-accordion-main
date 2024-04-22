@@ -8,9 +8,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         if (!textElement)return;
 
         let height = textElement.scrollHeight;
-        let currentQA = this.id;
-        let index = (currentQA.split("QA")[1]);
-        console.log(index)
+
         document.querySelectorAll(".text").forEach(function(othertext){
             if (othertext !== textElement) {
                 othertext.style.height = "0px";
